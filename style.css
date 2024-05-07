@@ -1,0 +1,100 @@
+header{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+body {
+    background-image: url(./images/backGround3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-weight: bold;
+    
+}
+
+.nav-link.px-2.link-secondary{
+    color:aliceblue !important;
+    font-weight: bold;
+}
+.nav-link.px-2.link-body-emphasis{
+    color:aliceblue !important;
+}
+
+h1,h2,h3,p {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    color: rgb(236, 240, 244) !important;
+    font-size: medium;
+}
+
+.containerM{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-inline-start: 10%;
+    margin-inline-end: 10%;  
+    gap: 10px;
+}
+
+#ready{
+height: 50%;
+width: 50%;
+}
+
+#ready,h3{
+    animation: myAnim 3s ease 0s infinite normal forwards;
+}
+
+@keyframes myAnim {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
+
+.btn{
+display: flex!important;
+width: 100%;
+gap: 38%;
+justify-content: center;
+align-items: center;
+}
+
+
+
+.shape{  
+    border-radius: 5px;
+    border: 3px solid #404B69;
+    margin: 10px;
+    padding: 1px 6px;
+    width: 30px;
+    height: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: rgb(187, 42, 42);
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
+  
+.instr{
+    margin-left: 6%;
+    color: aliceblue;
+}
+
+footer{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}

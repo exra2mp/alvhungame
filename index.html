@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AlvhunGame</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<nav>
+      <header class="p-3 mb-3 border-bottom">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
+              <img src="./images/Logo Mentorship.png" alt="mentorship logo" width="40" height="32">
+            </a>
+    
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
+              <li><a href="./public/game2.html" class="nav-link px-2 link-body-emphasis">More Games</a></li>
+              <li><a href="#" class="nav-link px-2 link-body-emphasis">Pricing</a></li>
+              <li><a href="#" class="nav-link px-2 link-body-emphasis">About</a></li>
+            </ul>
+    
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+              <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+            </form>
+    
+            <div class="dropdown text-end">
+              <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="./images/Logo Mentorship.png" alt="mentorship logo" width="32" height="32" class="rounded-circle">
+              </a>
+              <ul class="dropdown-menu text-small">
+                <li><a class="dropdown-item" href="#">New user...</a></li>
+                <li><a class="dropdown-item" href="#">Settings</a></li>
+                <li><a class="dropdown-item" href="#">Profile</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Sign out</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+</nav>
+<header>
+<h1> Welcome to AlvhunGame!!</h1>
+</header>
+<body>
+    <h2 class="gameMod">Demo Mode:</h2>
+    <h3 class="gameStat">Press a button to start</h3>
+    <div class="containerM">
+        
+        <div class="play1">
+            <p class="nam1">Player 1:</p>
+            <p class="sco1">Score P1:</p>
+            <img class="imgP1"  src="./images/anihand1.gif" alt="random hands image figure">
+        </div>
+        <div><img id="ready" src="./images/ready2.gif" alt="paperscissorsrock image"></div>
+        <div class="play2">
+            <p class="nam2">Player 2:</p>
+            <p class="sco2">Score P2:</p>
+            <img class="imgP2" src="./images/anihand2.gif" alt="random hands image figure">
+        </div>
+    </div>  
+    <div class="btn">
+      <div class="play1Btn">
+       <button class="a shape">A</button>
+       <button class="s shape">S</button>
+       <button class="d shape">D</button>
+      </div>
+      <div class="play2Btn">
+        <button class="1 shape">1</button>
+        <button class="2 shape">2</button>
+        <button class="3 shape">3</button> 
+      </div>
+
+    </div>
+    <section class="instr">
+        <h4>Instructions</h4>
+            
+            <ul>
+                For Player 1:
+                <li>Press keyboard numbers to select rock (a), paper(s) and scissor(d)</li>
+                For Player 2:
+                <li>Press keyboard keys to select rock (1), paper(2) and scissor(3)</li>
+                Best of three wins!!<br>
+                If you play alone write down CPU as Player 2.
+            </ul>
+        
+        
+    </section>
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <img class="bi" src="./images/xraLogo.png" alt="xralogo" width="30" height="24">
+            </a>
+            <span class="mb-3 mb-md-0" style="color:aliceblue">© 2024 Created by Ezra Marcia</span>
+        </div>
+        
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-body-secondary" href="https://twitter.com/"><img class="bi" src="./Images/twitter_x_new_logo_square_x_icon_256075.png" alt="twitter-logo" width="42" height="33"><use xlink:href="#twitter"></use></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/"><img class="bi" src="./Images/Instagram-Logo.wine.png" alt="Instagram-Logo" width="45" height="33"><use xlink:href="#instagram"></use></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="https://www.facebook.com/?locale=es_LA"><img class="bi" src="./Images/Facebook-Logo.png" alt="Facebook-Logo" width="24" height="22"><use xlink:href="#facebook"></use></a></li>
+        </ul>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<script src="game.js" charset="UTF-8"></script>
+ 
+</body>
+</html>
