@@ -1,1 +1,1 @@
-# alvhungame
+# Scissor, stone and paper game
